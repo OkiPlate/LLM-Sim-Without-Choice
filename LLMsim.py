@@ -8,7 +8,7 @@ st.caption("🚀 Your business advisor/consultant")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "Hello, I'm Pepper and today I am going to guide you through solving a business case for Hunter LLC. But before we start, please let me know your name!"}]
     #st.session_state["messages"].append({"role": "assistant", "content": "But before we start, please let me know your name!"})
-
+# Joo
 # Func for displaying messages as typing
 def stream_data(reply):
     for word in reply.split():
