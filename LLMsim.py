@@ -100,7 +100,7 @@ def continue1():
         numM += 1
 
     if numM == 11:
-        reply = "**Option A**: This option is for taking chances to possibly make more money. It's an alternate strategy, but it could lead to better results."
+        reply = "**Option B**: This option is for taking chances to possibly make more money. It's an alternate strategy, but it could lead to better results."
         st.session_state["messages"].append({"role": "assistant", "content": reply})
         st.chat_message("assistant").write_stream(stream_data(reply))
         numM += 1
